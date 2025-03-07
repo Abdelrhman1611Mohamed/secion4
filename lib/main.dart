@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/features/Regester/regester.dart';
+import 'package:flutter_application_1/features/Regester/views/regester.dart';
 
-import 'features/home/views/home_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Regester()//const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Regester()//const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
